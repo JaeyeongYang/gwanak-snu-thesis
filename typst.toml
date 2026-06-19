@@ -17,6 +17,7 @@ exclude = [
   "CHANGELOG.md",
   "CONTRIBUTING.md",
   "SPECS.md",
+  "scripts/**",
   "TESTING.md",
   "build/**",
   "docs/**",

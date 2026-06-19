@@ -2,6 +2,22 @@
 
 Generated outputs go under `build/`. The directory is ignored by git.
 
+## Typst Universe deploy tree
+
+Prepare the exact directory shape that is copied into the `typst/packages` repository and run release checks against that clean copy.
+
+```bash
+python3 scripts/prepare-universe-package.py
+```
+
+This creates:
+
+```text
+build/deploy/packages/preview/gwanak-snu-thesis/0.1.0/
+```
+
+The script copies only submission files, checks the thumbnail constraints, runs `typst-package-check`, runs `typos`, initializes the template through `typst init --package-path`, and compiles the initialized project. Use `--no-check` only when you need to inspect the generated deploy tree without running tools.
+
 ## Positive compile checks
 
 The public examples use the published-package import, so mirror the checkout into a local package path before compiling them.
