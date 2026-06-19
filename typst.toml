@@ -11,18 +11,9 @@ keywords = ["snu", "thesis", "seoul-national-university", "korean"]
 categories = ["thesis"]
 disciplines = []
 exclude = [
-  ".gitignore",
-  "AGENTS.md",
-  "CLAUDE.md",
-  "CHANGELOG.md",
-  "CONTRIBUTING.md",
+  "README.ko.md",
   "SPECS.md",
-  "scripts/**",
-  "TESTING.md",
-  "build/**",
-  "docs/**",
   "examples/**",
-  "tests/**",
   "*.pdf",
 ]
 

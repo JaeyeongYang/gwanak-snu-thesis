@@ -31,16 +31,12 @@ COPY_FILES = (
     "thumbnail.png",
     "lib.typ",
     "SPECS.md",
-    "TESTING.md",
-    "CONTRIBUTING.md",
-    "CHANGELOG.md",
 )
 
 COPY_DIRS = (
     "src",
     "template",
     "examples",
-    "scripts",
 )
 
 FORBIDDEN_NAMES = {

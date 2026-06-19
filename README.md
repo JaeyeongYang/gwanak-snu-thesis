@@ -14,8 +14,6 @@ cd my-thesis
 typst compile main.typ
 ```
 
-For local validation before publication, use the local package mirror workflow in [`TESTING.md`](TESTING.md). The public examples intentionally use the `@preview` import that published users will use.
-
 ## Minimal document
 
 ```typst
@@ -215,6 +213,4 @@ The library code is licensed under MIT. Files under `template/` are licensed und
 ## More details
 
 - Implemented spec: [`SPECS.md`](SPECS.md)
-- Verification commands: [`TESTING.md`](TESTING.md)
-- Contribution and release policy: [`CONTRIBUTING.md`](CONTRIBUTING.md)
-- Copy-pasteable examples: `examples/bachelor.typ`, `examples/master.typ`, `examples/phd.typ`
+- Copy-pasteable examples: [`examples/bachelor.typ`](examples/bachelor.typ), [`examples/master.typ`](examples/master.typ), [`examples/phd.typ`](examples/phd.typ)

@@ -11,4 +11,4 @@ Initial snapshot of `gwanak-snu-thesis`, an unofficial Typst template for Seoul 
 - Bachelor's, master's, and Ph.D. degree branches with graduate approval-page and committee validation.
 - User-configurable paper size, page margins, font stack, bibliography content, appendices, and draft body-review mode.
 - Appendix title prefixing with appendix-local figure, table, and equation counters.
-- Typst package metadata, starter `template/`, copy-pasteable examples, and validation fixtures.
+- Typst Universe package metadata, MIT-0 starter template, linked documentation/examples, and validation fixtures.
