@@ -20,7 +20,7 @@
   ),
   abstract-ko: [국문초록입니다.],
   abstract-en: [English abstract.],
-  bibliography: bibliography(path("/template/bibliography/references.bib"), style: "apa", title: none),
+  bibliography: bibliography("/template/bibliography/references.bib", style: "apa", title: none),
   appendices: (
     (
       title: [First Appendix],

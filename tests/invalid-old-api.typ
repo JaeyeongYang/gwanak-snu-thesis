@@ -20,7 +20,7 @@
   ),
   abstract-ko: [이전 API 실패 fixture입니다.],
   abstract-en: [Old API fixture.],
-  bibliography-file: path("/template/bibliography/references.bib"),
+  bibliography-file: "/template/bibliography/references.bib",
   bibliography-style: "apa",
 )
 

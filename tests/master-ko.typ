@@ -29,7 +29,7 @@
   abstract-en: [A minimal English abstract for the Korean master's fixture.],
   keywords-ko: ("석사", "검증"),
   keywords-en: ("master", "fixture"),
-  bibliography: bibliography(path("/template/bibliography/references.bib"), style: "apa", title: none),
+  bibliography: bibliography("/template/bibliography/references.bib", style: "apa", title: none),
 )
 
 = 본문

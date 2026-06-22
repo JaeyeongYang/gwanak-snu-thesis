@@ -4,7 +4,7 @@
   body-language: "ko",
   degree: "master",
   draft: true,
-  bibliography: bibliography(path("/template/bibliography/references.bib"), style: "apa", title: none),
+  bibliography: bibliography("/template/bibliography/references.bib", style: "apa", title: none),
 )
 
 = 초안 본문

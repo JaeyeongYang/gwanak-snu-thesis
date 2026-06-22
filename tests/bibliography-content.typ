@@ -11,7 +11,7 @@
   grad-date-en: "February 2026",
   abstract-ko: [참고문헌 슬롯은 사용자가 구성한 bibliography content를 그대로 받아야 합니다.],
   abstract-en: [The bibliography slot should pass through user-owned bibliography content.],
-  bibliography: bibliography(path("/template/bibliography/references.bib"), style: "chicago-author-date", title: none),
+  bibliography: bibliography("/template/bibliography/references.bib", style: "chicago-author-date", title: none),
 )
 
 = 본문
